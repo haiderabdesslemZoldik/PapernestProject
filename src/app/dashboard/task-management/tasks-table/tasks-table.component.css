@@ -1,0 +1,67 @@
+
+table {
+    width: 100%;
+}
+
+.edit-button {
+    background-color: rgb(2 197 174);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: rgb(237 117 149);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-button {
+    background-color: rgb(90 82 255);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    height: 38px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.completed {
+    background-color: green;
+    border-radius: 6px;
+    width: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}  
+
+.not-completed {
+    background-color: red;
+    border-radius: 6px;
+    width: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}  
+
+.add-button mat-icon {
+    margin-right: 5px;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-add-container {
+    display: flex;
+    align-self: flex-end;
+}

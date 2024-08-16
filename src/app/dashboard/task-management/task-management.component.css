@@ -1,0 +1,24 @@
+.add-button{
+    background-color: rgb(90 82 255);
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    height: 38px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.add-button mat-icon {
+    margin-right: 5px;
+}
+.task-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-add-container{
+    display: flex;
+    align-self: flex-end;
+}
